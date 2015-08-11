@@ -13,9 +13,8 @@ profile_picture | blob      |
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-owner_id    | integer   | not null, foreign key (references users)
 title       | string    | not null
-team_id     | integer   | foreign key (references teams)
+team_id     | integer   | not null, foreign key (references teams)
 description | text      |
 
 ## teams
@@ -76,4 +75,5 @@ user_id     | integer   | not null, foreign key (references projects)
 task_id     | integer   | not null, foreign key (references tags)
 action_type | string    | not null
 
-###other activities will be a collection of activities linked to child-tasks
+### other activities will be a collection of activities linked to child-tasks
+### team member roles and actions

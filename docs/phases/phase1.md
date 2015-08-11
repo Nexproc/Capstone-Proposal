@@ -11,6 +11,7 @@
 
 
 ### Controllers
+* SessionsController (create, new, destroy)
 * UsersController (create, new)
 * API::TeamMembers (create, destroy, index)
 * API::CommentsController (create, index, destroy, update)
