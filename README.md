@@ -15,7 +15,7 @@ noName is a clone of Asana built on Rails and Backbone. Users can:
 - [ ] Navigate to Teams, Projects, and Tasks indicies from nav-bar
 
 ## Design Docs
-* [View Wireframes][wireframes.pdf]
+* [View Wireframes]: ./wireframes.pdf
 * [DB schema][schema]
 
 [views]: ./docs/views.md
