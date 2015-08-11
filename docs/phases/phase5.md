@@ -1,4 +1,4 @@
-# Phase 5: Searching for Blogs and Posts
+# Phase 5: NavBar, Properly align subviews, and add Comments index/form to the Tasks list
 
 ## Rails
 ### Models

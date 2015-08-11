@@ -1,4 +1,4 @@
-# Phase 2: Viewing Blogs and Posts
+# Phase 2: Viewing your teams, their team Members, and projects
 
 ## Rails
 ### Models

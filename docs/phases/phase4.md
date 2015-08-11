@@ -1,4 +1,4 @@
-# Phase 4: User Feeds
+# Phase 4: User Show Page, User Tasks Index, User Projects Index
 
 ## Rails
 ### Models

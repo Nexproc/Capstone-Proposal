@@ -1,4 +1,4 @@
-# Phase 3: Editing and Displaying Posts
+# Phase 3: iewing a Project's Tasks, implementing TaskShow 
 
 ## Rails
 ### Models
@@ -22,6 +22,5 @@ API::UsersController (show)
 *ProjectShow(composite view containing TaskIndexItem subviews)
 *TaskIndexItem
 *TaskShow(composite view containing TaskIndexItem subviews)
-
 
 ## Gems/Libraries
