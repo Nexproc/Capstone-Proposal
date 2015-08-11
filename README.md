@@ -18,7 +18,7 @@ noName is a clone of Asana built on Rails and Backbone. Users can:
 * [View Wireframes][views]
 * [DB schema][schema]
 
-[views]: ./docs/wireframes.pdf
+[views]: ./wireframes.pdf
 [schema]: ./docs/schema.md
 
 ## Implementation Timeline
