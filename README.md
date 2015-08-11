@@ -1,7 +1,7 @@
-# noName
+# QuestLog
 
 ## Minimum Viable Product
-noName is a clone of Asana built on Rails and Backbone. Users can:
+QuestLog is a clone of Asana that is  built on Rails and Backbone. Users can:
 
 <!-- This is a Markdown checklist. Use it to keep track of your progress! -->
 
@@ -12,7 +12,7 @@ noName is a clone of Asana built on Rails and Backbone. Users can:
 - [ ] Create tasks
 - [ ] Add members to team
 - [ ] Comment on Tasks
-- [ ] Navigate to Teams, Projects, and Tasks indicies from nav-bar
+- [ ] Navigate to Teams, Projects, and Tasks from the swanky NavBar.
 
 ## Design Docs
 * [View Wireframes][views]
