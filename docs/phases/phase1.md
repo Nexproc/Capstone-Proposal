@@ -1,4 +1,4 @@
-# Phase 1: User Authentication, Basic Teams, Projects, Tasks and Comments Models
+# Phase 1: User Authentication, Basic Teams, Projects, Tasks and Comments Models - Pick out a color scheme.
 
 ## Rails
 ### Models
@@ -28,3 +28,4 @@
 ### Views
 
 ## Gems/Libraries
+* Bootstrap

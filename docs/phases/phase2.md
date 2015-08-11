@@ -1,31 +1,28 @@
-# Phase 2: Viewing your teams, their team Members, and projects
+# Phase 2: User Show Page, User Tasks Index, User Projects Index - Nav Bar
 
 ## Rails
 ### Models
 
 ### Controllers
-Api::TeamsController (create, destroy, index, show)
-Api::ProjectsController (create, destroy, show, update, index)
+Api::UsersController (show, tasks, teams, projects)
 
 ### Views
-* teams/show.json.jbuilder
+posts/feed.json.jbuilder
+users/tasks.json.jbuilder
+users/teams.json.jbuilder
+users/projects.json.jbuilder
 
 ## Backbone
 ### Models
-* Team (parses nested 'projects' and 'team members' associations)
-* Project
 
 ### Collections
-* Teams
-* Projects
 
 ### Views
-* TeamForm
-* TeamShow (composite view, contains TeamProjectsIndex subview)
-* TeamProjectsIndex (composite view, contains TeamProjectsIndexItem subviews)
-* TeamProjectsIndexItem (composite view, contains TeamMemberIndexViews)
-* TeamMemberIndexView
-* ProjectsIndex (composite view, contains ProjectsIndexItem subviews)
-* ProjectsIndexItem
+* UserTasksIndex(composite view containing TaskIndexItem subviews)
+* UserTeamsIndex(composite view containing TeamIndexItem subviews)
+* UserProjectsIndex(composite view containing UserProjectIndexItem subviews)
+* UserProjectIndexItem
+* TeamIndexItem
 
 ## Gems/Libraries
+

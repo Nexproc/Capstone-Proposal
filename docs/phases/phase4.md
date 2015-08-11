@@ -1,27 +1,26 @@
-# Phase 4: User Show Page, User Tasks Index, User Projects Index
+# Phase 4: Viewing a Project's Tasks, implementing TaskShow 
 
 ## Rails
 ### Models
 
 ### Controllers
-Api::UsersController (tasks, teams, projects)
+API::TasksController (create, destroy, show, update, index)
 
 ### Views
-posts/feed.json.jbuilder
-users/tasks.json.jbuilder
-users/teams.json.jbuilder
-users/projects.json.jbuilder
+* projects/show.json.jbuilder
+* tasks/show.json.jbuilder
 
 ## Backbone
 ### Models
+*Task
 
 ### Collections
+*Tasks
 
 ### Views
-* UserTasksIndex(composite view containing TaskIndexItem subviews)
-* UserTeamsIndex(composite view containing TeamIndexItem subviews)
-* UserProjectsIndex(composite view containing UserProjectIndexItem subviews)
-* UserProjectIndexItem
-* TeamIndexItem
+*ProjectShow(composite view containing TaskIndexItem subviews)
+*TaskIndexItem
+*TaskShow(composite view containing TaskIndexItem subviews)
 
 ## Gems/Libraries
+

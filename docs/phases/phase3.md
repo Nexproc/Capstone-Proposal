@@ -1,26 +1,35 @@
-# Phase 3: iewing a Project's Tasks, implementing TaskShow 
+# Phase 3: Viewing your teams, their team Members, and projects
 
 ## Rails
 ### Models
 
 ### Controllers
-API::TasksController (create, destroy, show, update, index)
-API::UsersController (show)
+Api::TeamsController (create, destroy, index, show)
+Api::ProjectsController (create, destroy, show, update, index)
 
 ### Views
-* projects/show.json.jbuilder
-* tasks/show.json.jbuilder
+* teams/show.json.jbuilder
 
 ## Backbone
 ### Models
-*Task
+* Team (parses nested 'projects' and 'team members' associations)
+* Project
 
 ### Collections
-*Tasks
+* Teams
+* Projects
 
 ### Views
-*ProjectShow(composite view containing TaskIndexItem subviews)
-*TaskIndexItem
-*TaskShow(composite view containing TaskIndexItem subviews)
+* TeamForm
+* TeamShow (composite view, contains TeamProjectsIndex subview)
+* TeamProjectsIndex (composite view, contains TeamProjectsIndexItem subviews)
+* TeamProjectsIndexItem (composite view, contains TeamMemberIndexViews)
+* TeamMemberIndexView
+* ProjectsIndex (composite view, contains ProjectsIndexItem subviews)
+* ProjectsIndexItem
 
 ## Gems/Libraries
+* Bootstrap
+
+
+

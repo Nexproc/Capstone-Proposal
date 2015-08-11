@@ -28,26 +28,27 @@ I will do most of the backend, Rails setup for the primary features of my projec
 
 [Details][phase-one]
 
-### Phase 2: Viewing your teams, their team Members, and projects (~2 days)
-In this phase, I will use JSON to parse a team's nested collection of both, team members and that team's projects. This will be contained within a TeamShow view.
+### Phase 2: User Show Page, User Tasks Index, User Projects Index + Navigation Bar (~1-2 days)
 
-[Details][phase-two]
+The navigation bar will have links to the Teams, Projects, and Tasks indicies for the current user.
 
-### Phase 3: Viewing a Project's Tasks, implementing TaskShow (~2 days)
-This phase will involve creating the show pages for the Projects themselves. The project's show page will consist of a tasks index. These tasks will need to be parsed using JSON builder. The tasks themselves will need their own show pages and should be able to contain an index of their own sub-tasks - I will try to accomplish this using the same nested comments pattern that we used on the Reddit Clone.
-
-[Details][phase-three]
-
-### Phase 4: User Show Page, User Tasks Index, User Projects Index (~1-2 days)
 Using the data nested within User > Teams > Projects, I will create a UserProjectIndex that will show all of the projects that the user is currently a part of, the name of the team that is overseeing it, and the completed number of tasks next to the total number of tasks.
 The Second feature added in this phase will be an Index of any task that has been directly assigned to the current user.
 
+[Details][phase-two]
+
+### Phase 3: Viewing your teams, their team Members, and projects (~2 days)
+In this phase, I will use JSON to parse a team's nested collection of both, team members and that team's projects. This will be contained within a TeamShow view.
+
+[Details][phase-three]
+
+### Phase 4: Viewing a Project's Tasks, implementing TaskShow (~2 days)
+This phase will involve creating the show pages for the Projects themselves. The project's show page will consist of a tasks index. These tasks will need to be parsed using JSON builder. The tasks themselves will need their own show pages and should be able to contain an index of their own sub-tasks - I will try to accomplish this using the same nested comments pattern that we used on the Reddit Clone.
+
 [Details][phase-four]
 
-### Phase 5: NavBar, Properly align subviews, and add Comments index/form to the Tasks list (~2 days)
-The navigation bar will have links to the Teams, Projects, and Tasks indicies for the current user.
+### Phase 5: Add Comments index/form to the Tasks list (~1 day)
 A comments index view will be added to the Tasks view, below the subtasks.
-I will be setting up my page to look more similar to Asana's.
 
 [Details][phase-five]
 

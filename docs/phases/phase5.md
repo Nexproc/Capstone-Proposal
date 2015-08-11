@@ -1,4 +1,4 @@
-# Phase 5: NavBar, Properly align subviews, and add Comments index/form to the Tasks list
+# Phase 5: Add Comments index/form to the Tasks list
 
 ## Rails
 ### Models
@@ -17,4 +17,4 @@
 * CommentIndexItem
 
 ## Gems/Libraries
-* Bootstrap
+
