@@ -28,7 +28,7 @@ I will do most of the backend, Rails setup for the primary features of my projec
 
 [Details][phase-one]
 
-### Phase 2: Viewing your teams and their team Members and projects (~2 days)
+### Phase 2: Viewing your teams, their team Members, and projects (~2 days)
 In this phase, I will use JSON to parse a team's nested collection of both, team members and that team's projects. This will be contained within a TeamShow view.
 
 [Details][phase-two]

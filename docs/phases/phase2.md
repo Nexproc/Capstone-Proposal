@@ -5,7 +5,7 @@
 
 ### Controllers
 Api::TeamsController (create, destroy, index, show)
-Api::ProjectsController (create, destroy, show, update)
+Api::ProjectsController (create, destroy, show, update, index)
 
 ### Views
 * teams/show.json.jbuilder

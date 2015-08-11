@@ -4,10 +4,13 @@
 ### Models
 
 ### Controllers
-Api::PostsController (feed)
+Api::UsersController (tasks, teams, projects)
 
 ### Views
 posts/feed.json.jbuilder
+users/tasks.json.jbuilder
+users/teams.json.jbuilder
+users/projects.json.jbuilder
 
 ## Backbone
 ### Models
@@ -15,6 +18,10 @@ posts/feed.json.jbuilder
 ### Collections
 
 ### Views
-* FeedShow (composite view, contains PostsIndex subview)
+* UserTasksIndex(composite view containing TaskIndexItem subviews)
+* UserTeamsIndex(composite view containing TeamIndexItem subviews)
+* UserProjectsIndex(composite view containing UserProjectIndexItem subviews)
+* UserProjectIndexItem
+* TeamIndexItem
 
 ## Gems/Libraries
