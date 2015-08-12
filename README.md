@@ -5,8 +5,8 @@ QuestLog is a clone of Asana that is  built on Rails and Backbone. Users can:
 
 <!-- This is a Markdown checklist. Use it to keep track of your progress! -->
 
-- [ ] Create accounts
-- [ ] Create sessions (log in)
+- [X] Create accounts
+- [X] Create sessions (log in)
 - [ ] Create teams
 - [ ] Create projects
 - [ ] Create tasks
@@ -30,7 +30,7 @@ I will do most of the backend, Rails setup for the primary features of my projec
 
 ### Phase 2: User Show Page, User Tasks Index, User Projects Index + Navigation Bar (~1-2 days)
 
-The navigation bar will have links to the Teams, Projects, and Tasks indicies for the current user.
+The navigation bar will have links to the Teams, Projects, and Tasks indices for the current user.
 
 Using the data nested within User > Teams > Projects, I will create a UserProjectIndex that will show all of the projects that the user is currently a part of, the name of the team that is overseeing it, and the completed number of tasks next to the total number of tasks.
 The Second feature added in this phase will be an Index of any task that has been directly assigned to the current user.
@@ -56,7 +56,6 @@ A comments index view will be added to the Tasks view, below the subtasks.
 - [ ] Cool, slidey CSS.
 - [ ] Built-in team-chat
 - [ ] RSS Task Activites (user edits task, etc.)
-- [ ] Pagination/infinite scroll
 - [ ] Project/Task/Team searching
 - [ ] Typeahead search bar
 - [ ] Multiple sessions/session management
@@ -66,4 +65,3 @@ A comments index view will be added to the Tasks view, below the subtasks.
 [phase-three]: ./docs/phases/phase3.md
 [phase-four]: ./docs/phases/phase4.md
 [phase-five]: ./docs/phases/phase5.md
-
