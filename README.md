@@ -1,18 +1,21 @@
-# QuestLog
+# Nexproc
 
 ## Minimum Viable Product
-QuestLog is a clone of Asana that is  built on Rails and Backbone. Users can:
+Nexproc is a clone of Asana that is  built on Rails and Backbone. Users can:
 
 <!-- This is a Markdown checklist. Use it to keep track of your progress! -->
 
 - [X] Create accounts
 - [X] Create sessions (log in)
-- [ ] Create teams
+- [X] Create teams
 - [ ] Create projects
 - [ ] Create tasks
-- [ ] Add members to team
+- [X] Add members to team
 - [ ] Comment on Tasks
-- [ ] Navigate to Teams, Projects, and Tasks from the swanky NavBar.
+- [X] Swanky Nav Bar
+- [X] Navigate to Teams
+- [ ] Navigate to Projects
+- [ ] Navigate to Tasks
 
 ## Design Docs
 * [View Wireframes][views]
