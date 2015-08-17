@@ -8,13 +8,13 @@ Nexproc is a clone of Asana that is  built on Rails and Backbone. Users can:
 - [X] Create accounts
 - [X] Create sessions (log in)
 - [X] Create teams
-- [ ] Create projects
+- [X] Create projects
 - [ ] Create tasks
 - [X] Add members to team
 - [ ] Comment on Tasks
 - [X] Fall in Love with their Swanky Side-Nav Bar
 - [X] Navigate to Teams
-- [ ] Navigate to Projects
+- [X] Navigate to Projects
 - [ ] Navigate to Tasks
 
 ## Design Docs
